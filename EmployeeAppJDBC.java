@@ -7,9 +7,6 @@ public class EmployeeAppJDBC {
 		
 		Scanner scan = new Scanner(System.in);
 		
-//		com.mysql.cj.jdbc.Driver d = new com.mysql.cj.jdbc.Driver();
-//		DriverManager.registerDriver(d);
-		
 		//Class.forName("com.mysql.cj.jdbc.Driver");//replace above two line using Class.forName method.
 		
 		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/employeedb","root", "2143");
